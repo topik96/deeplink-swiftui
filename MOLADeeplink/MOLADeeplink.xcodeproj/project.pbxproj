@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3A08A75281199370015DD54 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A08A74281199370015DD54 /* Home.swift */; };
+		D3B70DF328120796001FA99E /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B70DF228120796001FA99E /* Search.swift */; };
+		D3B70DF5281207C1001FA99E /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B70DF4281207C1001FA99E /* MovieDetail.swift */; };
+		D3FAE2A2280FF9AC005DE610 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FAE2A1280FF9AC005DE610 /* ContentView.swift */; };
+		D3FAE2A4280FF9AE005DE610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FAE2A3280FF9AE005DE610 /* Assets.xcassets */; };
+		D3FAE2A7280FF9AE005DE610 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FAE2A6280FF9AE005DE610 /* Preview Assets.xcassets */; };
+		D3FAE2B4280FFA4A005DE610 /* AppDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FAE2B3280FFA4A005DE610 /* AppDataModel.swift */; };
+		D3FAE2B62810017B005DE610 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FAE2B52810017B005DE610 /* Movie.swift */; };
+		D3FAE2B828100574005DE610 /* MOLADeeplinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FAE2B728100574005DE610 /* MOLADeeplinkApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3A08A74281199370015DD54 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D3B70DF228120796001FA99E /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		D3B70DF4281207C1001FA99E /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		D3FAE29C280FF9AC005DE610 /* MOLADeeplink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOLADeeplink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FAE2A1280FF9AC005DE610 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3FAE2A3280FF9AE005DE610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3FAE2A6280FF9AE005DE610 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3FAE2B3280FFA4A005DE610 /* AppDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataModel.swift; sourceTree = "<group>"; };
+		D3FAE2B52810017B005DE610 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		D3FAE2B728100574005DE610 /* MOLADeeplinkApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MOLADeeplinkApp.swift; sourceTree = "<group>"; };
+		D3FAE2B9281006B2005DE610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3FAE299280FF9AC005DE610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3FAE293280FF9AC005DE610 = {
+			isa = PBXGroup;
+			children = (
+				D3FAE29E280FF9AC005DE610 /* MOLADeeplink */,
+				D3FAE29D280FF9AC005DE610 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3FAE29D280FF9AC005DE610 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3FAE29C280FF9AC005DE610 /* MOLADeeplink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3FAE29E280FF9AC005DE610 /* MOLADeeplink */ = {
+			isa = PBXGroup;
+			children = (
+				D3FAE2B9281006B2005DE610 /* Info.plist */,
+				D3FAE2B0280FF9EA005DE610 /* View */,
+				D3FAE2AF280FF9DE005DE610 /* Utils */,
+				D3FAE2AE280FF9D5005DE610 /* Model */,
+				D3FAE2AD280FF9CF005DE610 /* ViewModel */,
+				D3FAE2A3280FF9AE005DE610 /* Assets.xcassets */,
+				D3FAE2A1280FF9AC005DE610 /* ContentView.swift */,
+				D3FAE2B728100574005DE610 /* MOLADeeplinkApp.swift */,
+				D3FAE2A5280FF9AE005DE610 /* Preview Content */,
+			);
+			path = MOLADeeplink;
+			sourceTree = "<group>";
+		};
+		D3FAE2A5280FF9AE005DE610 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3FAE2A6280FF9AE005DE610 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3FAE2AD280FF9CF005DE610 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D3FAE2B3280FFA4A005DE610 /* AppDataModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D3FAE2AE280FF9D5005DE610 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3FAE2B52810017B005DE610 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3FAE2AF280FF9DE005DE610 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D3FAE2B0280FF9EA005DE610 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3A08A74281199370015DD54 /* Home.swift */,
+				D3B70DF228120796001FA99E /* Search.swift */,
+				D3B70DF4281207C1001FA99E /* MovieDetail.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3FAE29B280FF9AC005DE610 /* MOLADeeplink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FAE2AA280FF9AE005DE610 /* Build configuration list for PBXNativeTarget "MOLADeeplink" */;
+			buildPhases = (
+				D3FAE298280FF9AC005DE610 /* Sources */,
+				D3FAE299280FF9AC005DE610 /* Frameworks */,
+				D3FAE29A280FF9AC005DE610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MOLADeeplink;
+			productName = MOLADeeplink;
+			productReference = D3FAE29C280FF9AC005DE610 /* MOLADeeplink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3FAE294280FF9AC005DE610 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D3FAE29B280FF9AC005DE610 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D3FAE297280FF9AC005DE610 /* Build configuration list for PBXProject "MOLADeeplink" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3FAE293280FF9AC005DE610;
+			productRefGroup = D3FAE29D280FF9AC005DE610 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3FAE29B280FF9AC005DE610 /* MOLADeeplink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3FAE29A280FF9AC005DE610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FAE2A7280FF9AE005DE610 /* Preview Assets.xcassets in Resources */,
+				D3FAE2A4280FF9AE005DE610 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3FAE298280FF9AC005DE610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FAE2A2280FF9AC005DE610 /* ContentView.swift in Sources */,
+				D3B70DF5281207C1001FA99E /* MovieDetail.swift in Sources */,
+				D3FAE2B4280FFA4A005DE610 /* AppDataModel.swift in Sources */,
+				D3A08A75281199370015DD54 /* Home.swift in Sources */,
+				D3B70DF328120796001FA99E /* Search.swift in Sources */,
+				D3FAE2B828100574005DE610 /* MOLADeeplinkApp.swift in Sources */,
+				D3FAE2B62810017B005DE610 /* Movie.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D3FAE2A8280FF9AE005DE610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3FAE2A9280FF9AE005DE610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3FAE2AB280FF9AE005DE610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MOLADeeplink/Preview Content\"";
+				DEVELOPMENT_TEAM = 5K7MANSHYK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MOLADeeplink/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = ContentView;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MOLADeeplink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3FAE2AC280FF9AE005DE610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MOLADeeplink/Preview Content\"";
+				DEVELOPMENT_TEAM = 5K7MANSHYK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MOLADeeplink/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = ContentView;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MOLADeeplink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3FAE297280FF9AC005DE610 /* Build configuration list for PBXProject "MOLADeeplink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FAE2A8280FF9AE005DE610 /* Debug */,
+				D3FAE2A9280FF9AE005DE610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FAE2AA280FF9AE005DE610 /* Build configuration list for PBXNativeTarget "MOLADeeplink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FAE2AB280FF9AE005DE610 /* Debug */,
+				D3FAE2AC280FF9AE005DE610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3FAE294280FF9AC005DE610 /* Project object */;
+}
